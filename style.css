@@ -1,0 +1,143 @@
+@import url(https://db.onlinewebfonts.com/c/ca981e21d9b00ef2e53ade0d80fe04fc?family=TA-kokoro_no1+W05+Regular);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2E2F34;
+    font-family: "TA-kokoro_no1 W05 Regular";
+    background-image: 
+        url('https://www.transparenttextures.com/patterns/old-wall.png'), /* Subtle texture overlay */
+        radial-gradient(circle, transparent, rgba(0, 0, 0, 0.7)); /* Vignette effect */
+    background-size: cover;
+    background-blend-mode: overlay, multiply;
+    color: #f3e6d5; /* Light text color for contrast */
+}
+
+.heading {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vmin;
+    gap: 20px;
+}
+
+.gameOption {
+    text-align: center;
+}
+
+#game img {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(10px 8px 2px #1a1b1d);
+    transition: ease-in-out 0.4s;
+}
+
+#game img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Optional: Style adjustments for <h1> within .gameOption */
+.gameOption h1 {
+    margin-top: 5px; /* Adjust the spacing between the image and the text if needed */
+}
+
+.rock {
+    color: white;
+    font-family: "TA-kokoro_no1 W05 Regular";
+    text-shadow: #FB4DBA 1px 0 10px;
+}
+
+.paper {
+    color: white;
+    font-family: "TA-kokoro_no1 W05 Regular";
+    text-shadow: #3AA3FA 1px 0 10px;
+}
+
+.scissor {
+    color: white;
+    font-family: "TA-kokoro_no1 W05 Regular";
+    text-shadow: #f7ba48 1px 0 10px;
+}
+
+.move{
+    font-size: 4vmin;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#scoreboard {
+    text-align: center;
+    font-size: 2rem;
+    color: antiquewhite;
+    font-family: "TA-kokoro_no1 W05 Regular";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20vmax;
+    margin-top: 30px;
+}
+
+main #reset {
+    margin-top: 20px;
+    text-align: center;
+}
+
+main button {
+    --green: #ffb120;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    background: linear-gradient(to right, rgba(247, 186, 72, 0.1) 1%, transparent 40%, transparent 60%, rgba(247, 186, 72, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px rgba(247, 186, 72, 1), 0 0 9px 3px rgba(247, 186, 72, 1);
+}
+
+main button:hover {
+    color: #f7ba48;
+    box-shadow: inset 0 0 10px rgba(247, 186, 72, 1), 0 0 9px 3px rgba(247, 186, 72, 1);
+    cursor: pointer;
+}
+
+main button:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(247, 186, 72, 1) 40%, rgba(247, 186, 72, 1) 60%, transparent 100%);
+}
+
+main button:hover:before {
+    transform: translateX(15em);
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    font-size: 2vmin;
+    color: white;
+    text-align: center;
+}
