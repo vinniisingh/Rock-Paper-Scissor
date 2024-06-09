@@ -40,7 +40,7 @@ This is a simple Rock Paper Scissors game implemented in HTML, CSS, and JavaScri
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/rock-paper-scissors-game.git
+    git clone https://github.com/vinniisingh/Rock-Paper-Scissor
     ```
 2. Navigate to the project directory:
     ```bash
@@ -50,7 +50,15 @@ This is a simple Rock Paper Scissors game implemented in HTML, CSS, and JavaScri
 
 ## Screenshots
 
-*Include screenshots of your game here*
+
+![image](https://github.com/vinniisingh/Rock-Paper-Scissor/assets/114791073/630055a2-fc1c-46c9-a0a3-b4c19f8704f9)
+![image](https://github.com/vinniisingh/Rock-Paper-Scissor/assets/114791073/3571179b-fc4e-4f78-ab02-a8580db144e5)
+![image](https://github.com/vinniisingh/Rock-Paper-Scissor/assets/114791073/d42913bb-dffe-4bf5-83a3-7b198650c40c)
+![image](https://github.com/vinniisingh/Rock-Paper-Scissor/assets/114791073/874d1766-f60a-4ce4-afdd-6de1672e6aa9)
+
+
+
+
 
 ## License
 
